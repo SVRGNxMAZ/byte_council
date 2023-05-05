@@ -1,4 +1,3 @@
 <?php
 session_start();
-$conn = mysqli_connect("localhost", "root", "", "modem"); gtgttgtg
-
+$conn = mysqli_connect("localhost", "root", " ", "register_db"); 

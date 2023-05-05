@@ -6,8 +6,8 @@ if(isset($_POST["submit"])){
   $password = $_POST["password"];
  
   // Insert the new user data into the database
-  $stmt = mysqli_prepare($conn, "INSERT INTO tb_user (matric_number, password) VALUES (?, ?)");
-  mysqli_stmt_bind_param($stmt, "ss", $matric_number, $password);
+  $stmt = mysqli_prepare($conn, "INSERT INTO reg_info (email, matric_number, password) VALUES (?, ?, ?)");
+  mysqli_stmt_bind_param($stmt, "ss", $email, $matric_number, $password);
   mysqli_stmt_execute($stmt);
 
   if (mysqli_stmt_affected_rows($stmt) > 0) {
