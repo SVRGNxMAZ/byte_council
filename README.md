@@ -16,7 +16,8 @@ pip3 install flask
 4. run the command:
 C:\x\x\x\byte_council-main>python flaskHome.py![cmd](https://user-images.githubusercontent.com/113993070/236646429-aef56326-487f-470e-a140-342db8bb6a6a.png)
 
-5. Open any browser and search the localhost and port 5000:
+5. Open any browser and search the localhost using port 5000:
+
 127.0.0.1:5000
 
 ![image](https://user-images.githubusercontent.com/113993070/236646511-0e938671-fcd6-436f-8782-c5314ec2dec6.png)
