@@ -508,7 +508,7 @@
         if (rawAge != "" && rawIncome != "" && rawPlan != "" && rawGoal != "")
         {
             document.getElementById("invalidAge").textContent = ""
-            document.getElementById("displayText").textContent = "Based on your yearly income of $" + income.toLocaleString('en') + ", you should be investing around $" + investingPerMonth.toLocaleString('en') + " per month, or $" + investingPerYear.toLocaleString('en') + " per year."
+            document.getElementById("displayText").textContent = "Based on your yearly income of RM" + income.toLocaleString('en') + ", you should be investing around RM" + investingPerMonth.toLocaleString('en') + " per month, or RM" + investingPerYear.toLocaleString('en') + " per year."
             document.getElementById("displayText2").textContent = "Here is what your portfolio should look like:"
             document.getElementById("displayText3").textContent = "Here's a projection of your investments over time:"
 
@@ -669,7 +669,7 @@
 
 <div class="slidecontainer" id="slider" style="display: none; margin-top: 30px; width: 600px; margin-left: 500px">
     <input type="range" min="" max="" value="" class="slider" id="myRange">
-    <p style="margin-top: 20px">Investing Per Month: $<span id="demo"></span></p>
+    <p style="margin-top: 20px">Investing Per Month: RM<span id="demo"></span></p>
 </div>
 
 <script>
