@@ -7,6 +7,8 @@ python --version
 
 ![image](https://user-images.githubusercontent.com/113993070/236646310-17e9f732-3acd-4c6e-b473-2a6231eaea77.png)
 
+if not , install python.
+
 2.run command this to install flask:
 pip3 install flask
 ![image](https://user-images.githubusercontent.com/113993070/236646343-db94eebf-9f82-4538-ad7a-710985073129.png)
